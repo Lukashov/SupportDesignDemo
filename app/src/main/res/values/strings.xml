@@ -19,6 +19,6 @@
     <string name="snacke_message_2">You\'re not so hungry!</string>
     <string name="title_activity_second">Add record</string>
 
-    <string name="button_check">Check</string>
+    <string name="button_done">Done</string>
     <string name="input_helper_text">Field is required</string>
 </resources>

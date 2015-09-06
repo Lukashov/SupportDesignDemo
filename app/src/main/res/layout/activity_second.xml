@@ -101,7 +101,7 @@
                     android:gravity="center"
                     android:padding="5dp"
                     android:singleLine="true"
-                    android:text="@string/button_check"
+                    android:text="@string/button_done"
                     android:textAllCaps="true"
                     android:textColor="@android:color/white"/>
         </android.support.v7.widget.CardView>
