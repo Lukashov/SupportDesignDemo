@@ -19,6 +19,10 @@ import android.view.View;
 
 import com.example.d_rom.supportdesigndemo.adapter.TabFragmentAdapter;
 
+/**
+ * +1
+ */
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Toolbar mToolbar;
