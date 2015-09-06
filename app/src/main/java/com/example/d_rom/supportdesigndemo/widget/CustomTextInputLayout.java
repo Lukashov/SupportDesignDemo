@@ -116,12 +116,12 @@ public class CustomTextInputLayout extends TextInputLayout {
             this.mHelperView.setVisibility(VISIBLE);
             ViewCompat.setAlpha(this.mHelperView, 0.0F);
             ViewCompat.animate(this.mHelperView)
-                    .alpha(1.0F).setDuration(200L)
+                    .alpha(1.0F).setDuration(300L)
                     .setInterpolator(FAST_OUT_SLOW_IN_INTERPOLATOR)
                     .setListener(null).start();
         } else if (this.mHelperView.getVisibility() == VISIBLE) {
             ViewCompat.animate(this.mHelperView)
-                    .alpha(0.0F).setDuration(200L)
+                    .alpha(0.0F).setDuration(300L)
                     .setInterpolator(FAST_OUT_SLOW_IN_INTERPOLATOR)
                     .setListener(new ViewPropertyAnimatorListenerAdapter() {
                 public void onAnimationEnd(View view) {
