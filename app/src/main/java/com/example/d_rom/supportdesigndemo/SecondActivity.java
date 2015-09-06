@@ -40,14 +40,14 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         if (TextUtils.isEmpty(mFieldOneEdit.getText().toString())) {
             mFieldOneLayout.setError("Type some text");
-            Toast.makeText(getApplicationContext(),"Type some text",Toast.LENGTH_SHORT).show();
+//            Toast.makeText(getApplicationContext(),"Type some text",Toast.LENGTH_SHORT).show();
         }else {
             mFieldOneLayout.setErrorEnabled(false);
         }
 
         if (TextUtils.isEmpty(mCustomEdit.getText().toString())) {
             mCustomLayout.setError("Type some text");
-            Toast.makeText(getApplicationContext(),"Type some text",Toast.LENGTH_SHORT).show();
+//            Toast.makeText(getApplicationContext(),"Type some text",Toast.LENGTH_SHORT).show();
         }else {
             mCustomLayout.setErrorEnabled(false);
         }
