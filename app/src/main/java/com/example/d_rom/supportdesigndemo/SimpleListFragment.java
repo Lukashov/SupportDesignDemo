@@ -42,7 +42,7 @@ public class SimpleListFragment extends Fragment {
         }
         return list;
     }
-
+//some comments
     private void foo(){
     }
 
