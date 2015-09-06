@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -39,12 +40,14 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         if (TextUtils.isEmpty(mFieldOneEdit.getText().toString())) {
             mFieldOneLayout.setError("Type some text");
+            Toast.makeText(getApplicationContext(),"Type some text",Toast.LENGTH_SHORT).show();
         }else {
             mFieldOneLayout.setErrorEnabled(false);
         }
 
         if (TextUtils.isEmpty(mCustomEdit.getText().toString())) {
             mCustomLayout.setError("Type some text");
+            Toast.makeText(getApplicationContext(),"Type some text",Toast.LENGTH_SHORT).show();
         }else {
             mCustomLayout.setErrorEnabled(false);
         }
